@@ -31,7 +31,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-white mb-6">Victoria's Cat Image Reward Program 🐱</h1>
       <h3 className="text-white mb-6">You get a cat image reward for every 10 points you earn</h3>
       <Scoreboard score={score} />
-      <p className="text-white mb-4">Points you could earn for this question: {diceResult}</p>
+      <p className="text-white mb-4"></p>
 
       <Trivia
         questionIndex={questionIndex}
